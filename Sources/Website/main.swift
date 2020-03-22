@@ -16,7 +16,7 @@ struct TiedaWebsite: Website {
     // Update these properties to configure your website:
     var url = URL(string: "https://tiedawei.com")!
     var name = "Tieda Wei"
-    var description = "A description of Website"
+    var description = "hi"
     var language: Language { .english }
     var imagePath: Path? { nil }
 }
