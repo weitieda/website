@@ -20,12 +20,12 @@ h1 {
     padding-top: 80px;
     font-size: 2em;
     
-/*    animation: TitleAnimation;*/
-/*    animation-duration: 2s;*/
-/*    opacity: 0;*/
-/*    animation-fill-mode: forwards;*/
-/*    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);*/
-/*    animation-delay: 0.1s;*/
+    animation: TitleAnimation;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);
+    animation-delay: 0.1s;
 }
 
 p {
@@ -34,12 +34,12 @@ p {
     line-height: 1;
     font-family: Menlo, Tahoma, Geneva, Verdana, sans-serif;
     
-/*    animation: TitleAnimation;*/
-/*    animation-duration: 2s;*/
-/*    opacity: 0;*/
-/*    animation-fill-mode: forwards;*/
-/*    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);*/
-/*    animation-delay: 1s;*/
+    animation: TitleAnimation;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);
+    animation-delay: 1s;
 }
 
 body .fa-social-icons {
@@ -48,12 +48,12 @@ body .fa-social-icons {
     font-size: 1.5em;
     transition: 0.3s;
     
-/*    animation: TitleAnimation;*/
-/*    animation-duration: 1.5s;*/
-/*    opacity: 0;*/
-/*    animation-fill-mode: forwards;*/
-/*    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);*/
-/*    animation-delay: 2s;*/
+    animation: TitleAnimation;
+    animation-duration: 1.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);
+    animation-delay: 2s;
 }
 
 body .fa-social-icons:hover {
