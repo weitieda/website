@@ -16,8 +16,8 @@ extension Node where Context == HTML.BodyContext {
             .div(
                 .text("© \(currentYear) \(site.name). Written in Swift")
             ),
-            .script(.src("https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js")),
-            .script(.src("https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js")),
+            .script(.src(URL(string: "https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js")!)),
+            .script(.src(URL(string: "https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js")!)),
             .script("""
                    var firebaseConfig = {
                      apiKey: "AIzaSyCM38prEWEDWkuumMhe6w0hFQgJlfDCNVM",
