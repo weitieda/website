@@ -11,7 +11,7 @@ import Foundation
 extension Node where Context == HTML.BodyContext {
     static func footer(for site: TiedaWebsite) -> Node {
         let currentYear = Calendar.current.component(.year, from: Date())
-        return .div(
+        return .footer(
             .class("footer"),
             .div(
                 .text("© \(currentYear) \(site.name). Written in Swift")
