@@ -25,4 +25,6 @@ struct TiedaWebsite: Website {
     var language: Language { .english }
     var imagePath: Path? { nil }
     var favicon: Favicon? { Favicon() }
+    
+    var socialMedia = [SocialMediaItem.email, .github, .linkedIn]
 }

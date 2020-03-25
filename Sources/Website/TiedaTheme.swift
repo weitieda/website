@@ -24,22 +24,14 @@ struct TiedaHTMLFactory: HTMLFactory {
                 .p(.text(context.site.description)),
                 .div(
                     .class("icons"),
-                    .a(
-                        .href("mailto:contact@tiedawei.com"),
-                        .target(.blank),
-                        .i(.class("far fa-envelope fa-social-icons"))
-                    ),
-                    .a(
-                        .class("github-icon"),
-                        .href("https://github.com/weitieda"),
-                        .target(.blank),
-                        .i(.class("fab fa-github fa-social-icons"))
-                    ),
-                    .a(
-                        .href("https://www.linkedin.com/in/tieda"),
-                        .target(.blank),
-                        .i(.class("fab fa-linkedin-in fa-social-icons"))
-                    )
+                    .forEach(context.site.socialMedia, {
+                        .a(
+                            .href($0.urlString),
+                            .target(.blank),
+                            .i(.class("\($0.iconName) fa-social-icons")),
+                            .class($0.className ?? "")
+                        )
+                    })
                 ),
                 .footer(for: context.site)
             )
