@@ -11,13 +11,10 @@ import Plot
 
 struct TiedaWebsite: Website {
     enum SectionID: String, WebsiteSectionID {
-        case posts
-        case about
+        case projects
     }
 
-    struct ItemMetadata: WebsiteItemMetadata {
-        var excerpt: String
-    }
+    struct ItemMetadata: WebsiteItemMetadata { }
 
     var url = URL(string: "www.tiedawei.com")!
     var name = "Tieda Wei"

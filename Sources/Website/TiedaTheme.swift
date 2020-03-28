@@ -33,13 +33,34 @@ struct TiedaHTMLFactory: HTMLFactory {
                         )
                     })
                 ),
+                .div(
+                    .class("my-works"),
+                    .a(
+                        .class("my-works-a"),
+                        .target(.blank),
+                        .href("https://github.com/weitieda/project-demo"),
+//                        .href(context.site.path(for: .projects)),
+                        .text("View My Projects")
+                    ),
+                    .i(.class("fas fa-chevron-right"))
+                ),
                 .footer(for: context.site)
             )
         )
     }
     
     func makeSectionHTML(for section: Section<TiedaWebsite>, context: PublishingContext<TiedaWebsite>) throws -> HTML {
-        HTML()
+        HTML(
+            .lang(.english),
+            .projectHead(for: context.site),
+            .if(section.id == .projects,
+                .body(
+                    .div(
+                        .h1("My Projects")
+                    )
+                )
+            )
+        )
     }
     
     func makeItemHTML(for item: Item<TiedaWebsite>, context: PublishingContext<TiedaWebsite>) throws -> HTML {

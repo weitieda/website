@@ -20,12 +20,12 @@ h1 {
     padding-top: 50px;
     font-size: 2em;
     
-    animation: TitleAnimation;
-    animation-duration: 2s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);
-    animation-delay: 0.1s;
+/*    animation: TitleAnimation;*/
+/*    animation-duration: 2s;*/
+/*    opacity: 0;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);*/
+/*    animation-delay: 0.1s;*/
 }
 
 p {
@@ -34,35 +34,56 @@ p {
     line-height: 1;
     font-family: Menlo, Tahoma, Geneva, Verdana, sans-serif;
     
-    animation: TitleAnimation;
-    animation-duration: 2s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);
-    animation-delay: 1s;
+/*    animation: TitleAnimation;*/
+/*    animation-duration: 2s;*/
+/*    opacity: 0;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);*/
+/*    animation-delay: 1s;*/
 }
 
 body .fa-social-icons {
-    color: rgb(255, 255, 255, 0.75);
-    padding-top: 50px;
+    color: rgb(255, 255, 255, 0.85);
+    padding-top: 40px;
     font-size: 1.5em;
     transition: 0.3s;
-    
-    animation: TitleAnimation;
-    animation-duration: 1.5s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);
-    animation-delay: 2s;
+
+/*    animation: TitleAnimation;*/
+/*    animation-duration: 1.5s;*/
+/*    opacity: 0;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: cubit-bezier(0.2, 0.8, 0.2, 1);*/
+/*    animation-delay: 2s;*/
 }
 
 body .fa-social-icons:hover {
     color: white;
+    transform: translateY(-2px);
 }
 
 body .github-icon {
     margin-left: 25px;
     margin-right: 25px;
+}
+
+body .my-works {
+    padding-top: 2em;
+}
+
+body .my-works-a {
+    color: rgba(41,151,255, 1);
+    text-decoration: none;
+}
+
+body .my-works a:hover {
+    text-decoration: underline;
+}
+
+body .my-works .fa-chevron-right {
+    padding-left: 10px;
+    padding-top: 1px;
+    font-size: 0.8em;
+    color: rgba(41,151,255, 1);
 }
 
 body .footer {
@@ -73,13 +94,14 @@ body .footer {
     font-size: 0.6em;
 }
 
-@keyframes TitleAnimation {
-    0% {
-        transform: translateY(20px);
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
+/**/
+/*@keyframes TitleAnimation {*/
+/*    0% {*/
+/*        transform: translateY(20px);*/
+/*        opacity: 0;*/
+/*    }*/
+/*    100% {*/
+/*        opacity: 1;*/
+/*        transform: translateY(0px);*/
+/*    }*/
+/*}*/

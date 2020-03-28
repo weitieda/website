@@ -13,8 +13,6 @@ struct SocialMediaItem {
     var className: String?
     
     static var linkedIn = SocialMediaItem(urlString: "https://www.linkedin.com/in/tieda", iconName: "fab fa-linkedin-in", className: nil)
-    
     static var github = SocialMediaItem(urlString: "https://github.com/weitieda", iconName: "fab fa-github", className: "github-icon")
-    
     static var email = SocialMediaItem(urlString: "mailto:contact@tiedawei.com", iconName: "far fa-envelope", className: nil)
 }
