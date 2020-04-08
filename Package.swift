@@ -8,12 +8,16 @@ let package = Package(
         .executable(name: "Website", targets: ["Website"])
     ],
     dependencies: [
-        .package(url: "https://github.com/johnsundell/publish.git", from: "0.3.0")
+        .package(url: "https://github.com/johnsundell/publish.git", from: "0.3.0"),
+        .package(url: "https://github.com/SwiftyGuerrero/CNAMEPublishPlugin", from: "0.1.0")
     ],
     targets: [
         .target(
             name: "Website",
-            dependencies: ["Publish"]
+            dependencies: [
+                "Publish",
+                "CNAMEPublishPlugin"
+            ]
         )
     ]
 )
