@@ -94,18 +94,6 @@ body .footer {
     font-size: 0.6em;
 }
 
-/**/
-/*@keyframes TitleAnimation {*/
-/*    0% {*/
-/*        transform: translateY(20px);*/
-/*        opacity: 0;*/
-/*    }*/
-/*    100% {*/
-/*        opacity: 1;*/
-/*        transform: translateY(0px);*/
-/*    }*/
-/*}*/
-
 @media (max-width: 500px) {
     body {
         font-size: 15px;
@@ -125,3 +113,15 @@ body .footer {
         padding-top: 15px;
     }
 }
+
+/**/
+/*@keyframes TitleAnimation {*/
+/*    0% {*/
+/*        transform: translateY(20px);*/
+/*        opacity: 0;*/
+/*    }*/
+/*    100% {*/
+/*        opacity: 1;*/
+/*        transform: translateY(0px);*/
+/*    }*/
+/*}*/
