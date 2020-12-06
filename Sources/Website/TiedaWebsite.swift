@@ -23,5 +23,5 @@ struct TiedaWebsite: Website {
     var imagePath: Path? { nil }
     var favicon: Favicon? { Favicon() }
     
-    var socialMedia = [SocialMediaItem.email, .github, .linkedIn]
+    var socialMedia = [SocialMediaItem.email, .github, .linkedIn, .youtube, .instagram]
 }
