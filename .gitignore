@@ -6,9 +6,3 @@ node_modules/
 
 # Production
 build/
-
-# Swift/Legacy (keeping just in case, though mostly deleted)
-.build/
-.swiftpm/
-*.xcodeproj
-.publish/
