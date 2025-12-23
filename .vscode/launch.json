@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:website}",
+            "name": "Debug Website",
+            "target": "Website",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Website"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:website}",
+            "name": "Release Website",
+            "target": "Website",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Website"
+        }
+    ]
+}

@@ -1,6 +1,14 @@
+
+# Next.js
+.next/
+node_modules/
 .DS_Store
-/build
-/.build
-/.swiftpm
-/*.xcodeproj
-.publish
+
+# Production
+build/
+
+# Swift/Legacy (keeping just in case, though mostly deleted)
+.build/
+.swiftpm/
+*.xcodeproj
+.publish/

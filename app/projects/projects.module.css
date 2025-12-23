@@ -1,0 +1,30 @@
+.page {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.page h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.page p {
+  line-height: 1.5;
+}
+
+.links {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.link {
+  color: rgba(41, 151, 255, 1);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
