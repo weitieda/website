@@ -29,7 +29,7 @@ export default function HomePage() {
         <i className={`fas fa-chevron-right ${styles["fa-chevron-right"]}`}></i>
       </div>
       <footer className={styles.footer}>
-        <div>© {new Date().getFullYear()} Tieda Wei. Written in React</div>
+        <div>© {new Date().getFullYear()} Tieda Wei. All rights reserved.</div>
       </footer>
     </div>
   );
