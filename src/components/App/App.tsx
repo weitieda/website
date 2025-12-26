@@ -1,7 +1,7 @@
 import "./App.css";
-import NameTittle from "../NameTittle/NameTittle";
-import Motto from "../Motto/Motto";
-import SocialIcons from "../SocialIcons/SocialIcons";
+import NameTittle from "../Features/NameTittle/NameTittle";
+import Motto from "../Features/Motto/Motto";
+import SocialIcons from "../Features/SocialIcons/SocialIcons";
 
 function App() {
   return (
