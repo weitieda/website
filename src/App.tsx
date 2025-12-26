@@ -1,5 +1,6 @@
 import './App.css'
 import NameTittle from './components/NameTittle/NameTittle'
+import Motto from './components/Motto/Motto'
 import SocialIcons from './components/SocialIcons/SocialIcons'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <>
       <div className="page">
         <NameTittle />
-        <h3>I like to build stuff.</h3>
+        <Motto />
         <SocialIcons />
       </div>
     </>
