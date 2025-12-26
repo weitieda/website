@@ -1,6 +1,6 @@
 import './App.css'
-import NameTittle from './components/NameTittle'
-import SocialIcons from './components/SocialIcons'
+import NameTittle from './components/NameTittle/NameTittle'
+import SocialIcons from './components/SocialIcons/SocialIcons'
 
 function App() {
   return (
