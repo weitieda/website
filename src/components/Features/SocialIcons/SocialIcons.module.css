@@ -1,0 +1,17 @@
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.faSocialIcons {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+.faSocialIcons:hover {
+  color: #fff;
+  transform: translateY(-2px);
+}
