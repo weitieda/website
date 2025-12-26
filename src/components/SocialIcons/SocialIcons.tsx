@@ -1,23 +1,23 @@
-import styles from './SocialIcons.module.css'
+import styles from "./SocialIcons.module.css";
 
 function SocialIcons() {
   const socialLinks = [
-  {
-    href: 'https://github.com/weitieda',
-    iconClassName: 'fab fa-github',
-    label: 'GitHub',
-  },
-  {
-    href: 'https://www.linkedin.com/in/tieda',
-    iconClassName: 'fab fa-linkedin-in',
-    label: 'LinkedIn',
-  },
-  {
-    href: 'https://www.instagram.com/twei3',
-    iconClassName: 'fab fa-instagram',
-    label: 'Instagram',
-  },
-]
+    {
+      href: "https://github.com/weitieda",
+      iconClassName: "fab fa-github",
+      label: "GitHub",
+    },
+    {
+      href: "https://www.linkedin.com/in/tieda",
+      iconClassName: "fab fa-linkedin-in",
+      label: "LinkedIn",
+    },
+    {
+      href: "https://www.instagram.com/twei3",
+      iconClassName: "fab fa-instagram",
+      label: "Instagram",
+    },
+  ];
 
   return (
     <div className={styles.icons}>
@@ -33,7 +33,7 @@ function SocialIcons() {
         </a>
       ))}
     </div>
-  )
+  );
 }
 
-export default SocialIcons
+export default SocialIcons;
