@@ -1,27 +1,37 @@
 import styles from './SocialIcons.module.css'
 
 function SocialIcons() {
+  const socialLinks = [
+  {
+    href: 'https://github.com/weitieda',
+    iconClassName: 'fab fa-github',
+    label: 'GitHub',
+  },
+  {
+    href: 'https://www.linkedin.com/in/tieda',
+    iconClassName: 'fab fa-linkedin-in',
+    label: 'LinkedIn',
+  },
+  {
+    href: 'https://www.instagram.com/twei3',
+    iconClassName: 'fab fa-instagram',
+    label: 'Instagram',
+  },
+]
+
   return (
     <div className={styles.icons}>
-      <a
-        href="https://github.com/weitieda"
-        target="_blank"
-        rel="noreferrer"
-        className={styles.githubIcon}
-      >
-        <i className={`fab fa-github ${styles.faSocialIcons}`} />
-      </a>
-      <a href="https://www.linkedin.com/in/tieda" target="_blank" rel="noreferrer">
-        <i className={`fab fa-linkedin-in ${styles.faSocialIcons}`} />
-      </a>
-      <a
-        href="https://www.instagram.com/twei3"
-        target="_blank"
-        rel="noreferrer"
-        className={styles.ytbIcon}
-      >
-        <i className={`fab fa-instagram ${styles.faSocialIcons}`} />
-      </a>
+      {socialLinks.map((link) => (
+        <a
+          key={link.href}
+          href={link.href}
+          target="_blank"
+          rel="noreferrer"
+          aria-label={link.label}
+        >
+          <i className={`${link.iconClassName} ${styles.faSocialIcons}`} />
+        </a>
+      ))}
     </div>
   )
 }
